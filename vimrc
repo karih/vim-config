@@ -8,5 +8,6 @@ set softtabstop=4
 set expandtab
 set shiftwidth=4
 set number
+set directory=/var/tmp
 filetype indent on 
 colorscheme zenburn
