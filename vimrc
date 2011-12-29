@@ -1,13 +1,11 @@
 set t_Co=256
-syntax on
 set modeline
-set background=dark
-set autoindent
-set tabstop=8
-set softtabstop=4
-set expandtab
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
+set noexpandtab
 set number
 set directory=/var/tmp
-filetype indent on 
+syntax on
+filetype plugin indent on
+set background=dark
 colorscheme zenburn
