@@ -14,3 +14,4 @@ syntax on
 filetype plugin indent on
 set background=dark
 colorscheme zenburn
+execute pathogen#infect()
