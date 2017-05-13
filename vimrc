@@ -15,3 +15,11 @@ filetype plugin indent on
 set background=dark
 colorscheme zenburn
 execute pathogen#infect()
+setlocal spell spelllang=en_us
+
+if &term =~ '256color'
+    " Disable Background Color Erase (BCE) so that color schemes
+    " work properly when Vim is used inside tmux and GNU screen.
+    set t_ut=
+endif
+
